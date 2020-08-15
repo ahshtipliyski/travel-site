@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/form.css">
+</head>
+<body class="background-image">
+  <header>
+    <nav class="nav-bar">
+      <a href="../index.html" class="nav-bar__logo">Fly Away</a>
+      <div class="nav-bar__links">
+        <ul class="nav-bar__list">
+          <li class="nav-bar__item"><a href="../index.html" class="nav-bar__anchor nav-bar__active">Home</a></li>
+          <li class="nav-bar__item"><a href="Hawaii.html" class="nav-bar__anchor">Hawaii</a></li>
+          <li class="nav-bar__item"><a href="Iceland.html" class="nav-bar__anchor">Iceland</a></li>
+          <li class="nav-bar__item"><a href="Greece.html" class="nav-bar__anchor">Greece</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="contact-form"> 
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Hawaii">Hawaii</option>
+          <option value="Iceland">Iceland</option>
+          <option value="Greece">Greece</option>
+        </select>
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+        <input type="submit" value="Submit" formaction="../index.html">
+      </form>
+    </div>
+</section>
+</body>
+</html>
